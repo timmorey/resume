@@ -1,0 +1,14 @@
+{
+  "name": "resume",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start:tailwind": "npx tailwindcss -i ./src/index.css -o ./dist/index.css --watch"
+  },
+  "author": "Timothy Morey <timmorey@gmail.com>",
+  "license": "ISC",
+  "devDependencies": {
+    "tailwindcss": "^3.0.23"
+  }
+}
