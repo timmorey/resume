@@ -3,73 +3,116 @@
     <title>Timothy Morey</title>
     <link href="/dist/index.css" rel="stylesheet">
   </head>
-  <body>
-    <header>
-      <h1 class="text-4xl">Timothy Morey</h1>
-      <ul>
+  <body class="flex text-neutral-800 mx-auto">
+    <header class="bg-neutral-100 w-72 shrink-0">
+      <h1 class="mx-4 my-6 text-4xl text-neutral-900">Timothy Morey</h1>
+      <ul class="mx-4 my-6 text-sm">
         <li>
           <a class="flex items-center" href="mailto:timmorey@gmail.com" target="_blank">
             <img class="m-2 h-4 w-4" src="/assets/at.svg">
-            <span>timmorey@gmail.com</span>
+            <span class="ml-2">timmorey@gmail.com</span>
           </a>
         </li>
         <li>
           <a class="flex items-center" href="tel:12076507880" target="_blank">
             <img class="m-2 h-4 w-4" src="/assets/phone.svg">
-            <span>(207) 650-7880</span>
+            <span class="ml-2">(207) 650-7880</span>
           </a>
         </li>
         <li>
           <a class="flex items-center" href="https://www.google.com/maps/place/Portland,+ME" target="_blank">
             <img class="m-2 h-4 w-4" src="/assets/location-dot.svg">
-            <span>Portland, Maine</span>
+            <span class="ml-2">Portland, Maine</span>
           </a>
         </li>
         <li>
           <a class="flex items-center" href="https://github.com/timmorey" target="_blank">
             <img class="m-2 h-4 w-4" src="/assets/github-square.svg">
-            <span>github.com/timmorey</span>
+            <span class="ml-2">github.com/timmorey</span>
           </a>
         </li>
         <li>
           <a class="flex items-center" href="https://www.linkedin.com/in/timothy-morey" target="_blank">
             <img class="m-2 h-4 w-4" src="/assets/linkedin.svg">
-            <span>linkedin.com/in/timothy-morey</span>
+            <span class="ml-2">linkedin.com/in/timothy-morey</span>
           </a>
         </li>
       </ul>
-    </header>
-    <main>
-      <p>
-        Software developer with decades of experience 
-        With diverse expereinces ranging from optimizing parallel I/O on supercomputers to building frontend 
+      <p class="mx-4 my-6 text-sm">
+        Software developer with decades of experience working with people to solve problems.
       </p>
-      <section>
-        <h2 class="text-xl">Experience</h2>
+      <p class="mx-4 my-6 text-sm">
+        Skilled in reading, writing, and reviewing code, with a deep love for computational efficiency and high-quality user experiences.
+      </p>
+      <p class="mx-4 my-6 text-sm">
+        In search of challenging problems to solve, interesting people to collaborate with, and an organization that makes me proud.
+      </p>
+    </header>
+    <main class="grow-1">
+      <section class="mx-4 my-6">
+        <h2 class="my-4 text-xl">Experience</h2>
         <ul>
-          <li>
-            <div><span class="italic">2021-present</span> Software Developer Team Lead at Esri</div>
+          <li class="my-4">
+            <div>
+              <span class="mr-2 italic text-neutral-500">2021-present</span>
+              <span class="">Lead Software Developer at Esri</span>
+            </div>
+            <ul class="list-disc ml-4 text-sm">
+              <li>Leading a team of web developers to consistently deliver complex, high-quality products on time.</li>
+              <li>Building a suite of single-page web apps with the <strong>Ember.js</strong> framework, <strong>Stencil</strong> components, <strong>Typescript</strong>, and the <strong>ArcGIS</strong> platform.</li>
+              <li>Delivering cloud and on-prem deployments of each app, as well as early-access preview deployments for select users.</li>
+              <li>Working closely with mobile client and backend teams to streamline operations and ensure consistency.</li>
+            </ul>
           </li>
-          <li>
-            <div><span class="italic">2013-2021</span> Software Developer at Esri</div>
+          <li class="my-4">
+            <div>
+              <span class="mr-2 italic text-neutral-500">2013-2021</span>
+              <span class="">Software Developer at Esri</span>
+            </div>
+            <ul class="list-disc ml-4 text-sm">
+              <li>Hired as an iOS developer to build apps with <strong>Objective-C</strong> (later <strong>Swift</strong>) that support GIS field operations.</li>
+              <li>Transitioned to web development with the <strong>Ember.js</strong> framework to support the evolving needs of our users.</li>
+              <li>Developed and maintained <strong>AWS</strong>-based infrastructure to host production and development versions of our web apps.</li>
+              <li>Prototyped a <strong>Python</strong> API to help users automate tasks in our apps.</li>
+              <li>Built CI workflows and automated team processes with <strong>TravisCI</strong> and <strong>GitHub Actions</strong>.</li>
+            </ul>
           </li>
-          <li>
-            <div><span class="italic">2005-2010</span> Software Developer at Blue Marble Geographics</div>
+          <li class="my-4">
+            <div>
+              <span class="mr-2 italic text-neutral-500">2010-2013</span>
+              <span class="">Graduate Student Working Odd Jobs</span>
+            </div>
+            <ul class="list-disc ml-4 text-sm">
+              <li>Contract work with Madden Timberlands, developing software for use in forestry machinery.  Integrated data from multiple sensors to track the machine's operation and provide feedback to the operator.</li>
+              <li>Contract work at Blue Marble Geograpics to evaluate the GIGS compliance of their software platform.</li>
+              <li>Research assistant focused on optimizing the performance of ice sheet models on supercomputers.</li>
+              <li>Teaching assistant, helping students with <strong>Python</strong>, <strong>C++</strong>, <strong>VB.Net</strong>, and database design courses.</li>
+            </ul>
+          </li>
+          <li class="my-4">
+            <div>
+              <span class="mr-2 italic text-neutral-500">2005-2010</span>
+              <span class="">Software Developer at Blue Marble Geographics</span>
+            </div>
+            <ul class="list-disc ml-4 text-sm">
+              <li>Contributed to cross-platform <strong>C++</strong> GIS libraries for data transformation and translation, as well as <strong>COM</strong> and <strong>.Net</strong> wrappers.</li>
+              <li>Developed Windows desktop applications with <strong>C#.Net</strong> and maintained legacy <strong>MFC</strong> desktop applications.</li>
+              <li>Developed a multi-threaded <strong>GDI+</strong> rendering engine for raster and vector GIS data.</li>
+            </ul>
           </li>
         </ul>
       </section>
-      <section>
-        <h2 class="text-xl">Education</h2>
+      <section class="mx-4 my-6">
+        <h2 class="my-4 text-xl">Education</h2>
         <ul>
-          <li>
-            <div>University of Maine</div>
-            <div>Orono, Maine</div>
+          <li class="my-4">
             <div>M.S. in Computer Science (2013)</div>
+            <div class="text-sm text-neutral-600">University of Maine in Orono, Maine</div>
+            <div class="text-sm text-neutral-600">Focused on high-performance computing and parallel processing.</div>
           </li>
-          <li>
-            <div>Hendrix College</div>
-            <div>Conway, Arkansas</div>
+          <li class="my-4">
             <div>B.A. in Mathematics in Computer Science (2003)</div>
+            <div class="text-sm text-neutral-600">Hendrix College in Conway, Arkansas</div>
           </li>
         </ul>
       </section>
