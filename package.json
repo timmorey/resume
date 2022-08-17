@@ -4,9 +4,11 @@
   "description": "",
   "main": "index.js",
   "scripts": {
+    "build": "tailwindcss -i ./src/index.css -o ./dist/index.css",
     "start": "npm-run-all --parallel start:*",
     "start:server": "http-server",
-    "start:tailwind": "tailwindcss -i ./src/index.css -o ./dist/index.css --watch"
+    "start:tailwind": "tailwindcss -i ./src/index.css -o ./dist/index.css --watch",
+    "deploy": "npm run build && ./scripts/deploy.sh"
   },
   "author": "Timothy Morey <timmorey@gmail.com>",
   "license": "ISC",
