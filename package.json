@@ -13,8 +13,8 @@
   "author": "Timothy Morey <timmorey@gmail.com>",
   "license": "ISC",
   "devDependencies": {
-    "http-server": "^14.1.0",
+    "http-server": "^14.1.1",
     "npm-run-all": "^4.1.5",
-    "tailwindcss": "^3.0.23"
+    "tailwindcss": "^3.1.8"
   }
 }
