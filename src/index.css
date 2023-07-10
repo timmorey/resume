@@ -14,3 +14,34 @@
   size: letter portrait;
   margin: 0;
 }
+
+.contact-info {
+  @apply flex items-center
+}
+.contact-info > img {
+  @apply m-2 h-4 w-4
+}
+.contact-info > span {
+  @apply ml-2
+}
+
+.abstract-quality {
+  @apply mx-6 my-6 text-sm
+}
+
+.experience {
+  @apply my-4
+}
+.experience-summary-when {
+  @apply mr-2 italic text-neutral-500
+}
+.experience-details {
+  @apply list-disc ml-4 text-sm
+}
+
+.education {
+  @apply experience
+}
+.education-detail {
+  @apply text-sm text-neutral-600
+}
